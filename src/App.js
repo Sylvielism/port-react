@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Marquee from "./components/Marquee";
+import Marquee2 from "./components/Marquee2";
+import Navbar from "./components/Navbar";
+import ImageBrightness from "./components/ImageBrightness.jsx";
+import LoginForm from "./components/loginform.jsx";
+import ShapeToggle from "./components/ShapeToggle.jsx";
+
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Home from "./pages/Home.jsx"
+import Gallary from "./pages/Gallary.jsx";
+import Commission from "./pages/Commission.jsx";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element ={<Home/>}/>
+          <Route path="/home" element={<Home/>}/>
+          <Route path="/gallary" element={<Gallary/>}/>
+          <Route path="/commission" element={<Commission/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
