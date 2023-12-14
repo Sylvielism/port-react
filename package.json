@@ -1,7 +1,8 @@
 {
+  "homepage" : "https://Sylvielism.github.io/port-react",
   "name": "my-port",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
     "@heroicons/react": "^1.0.6",
@@ -18,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
