@@ -50,9 +50,9 @@ const ImageBrightness = () => {
   //}
 
   const handleMouseLeave = () => {
-    //setBrightness([50, 50, 50, 50]); // Reset all brightness values
-    //setText("")
-    //setHead("")
+    setBrightness([50, 50, 50, 50]); // Reset all brightness values
+    setText("")
+    setHead("")
 
   };
 
@@ -65,7 +65,7 @@ const ImageBrightness = () => {
             style={{ filter: `brightness(${brightness[0]}%)`, backgroundColor: 'transparent' }}
             onMouseEnter={() => handleHover(0)}
             onMouseLeave={handleMouseLeave}
-          ><img className='w-full' src="./Head" alt="" /></div>
+          ><img className='w-full' src="./Head.png" alt="" /></div>
           <div
             className="square w-80 h-40"
             style={{ filter: `brightness(${brightness[1]}%)`, backgroundColor: 'transparent' }}
