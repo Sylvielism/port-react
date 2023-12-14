@@ -11,6 +11,7 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Home from "./pages/Home.jsx"
 import Gallary from "./pages/Gallary.jsx";
 import Commission from "./pages/Commission.jsx";
+import { HashRouter } from 'react-router-dom';
 
 
 
@@ -18,14 +19,14 @@ import Commission from "./pages/Commission.jsx";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter >
         <Routes>
           <Route index element ={<Home/>}/>
           <Route path="/home" element={<Home/>}/>
           <Route path="/gallary" element={<Gallary/>}/>
           <Route path="/commission" element={<Commission/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
