@@ -11,8 +11,8 @@ const Commission = () => {
     <>
         <Navbar></Navbar>
         <Body></Body>
-        <Comdetail></Comdetail>
         <ImageBrightness></ImageBrightness>
+        <Comdetail></Comdetail>
         <Body></Body>
         <Footer></Footer>
     </>

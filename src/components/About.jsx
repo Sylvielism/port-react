@@ -11,7 +11,7 @@ function About() {
             <div className='p-12 md:order-first sm:order-last xs:order-last'>
                 <h1 className='font-bold text-6xl text-white'>Sylvielism</h1>
                 <p className='text-white text-lg pt-4'>Developper,Digital Artist,Self Learner </p>
-                <p className='text-white pt-4'>Introducing [Your Name], an aspiring digital artist and talented coder with a passion for self-improvement and creating meaningful contributions to humanity. With a unique blend of artistic creativity, technical expertise, and a love for science and math, [Your Name] brings a multidisciplinary approach to their work.</p>
+                <p className='text-white pt-4'>Introducing Nan, an aspiring digital artist and talented coder with a passion for self-improvement and creating meaningful contributions to humanity. With a unique blend of artistic creativity, technical expertise, and a love for science and math, Nan brings a multidisciplinary approach to their work.</p>
                 <a href="https://www.pixiv.net/en/users/50727639"><button className='mt-6 p-4 w-52 font-semibold'>Gallary</button></a>
             </div>
             {/*<img className='w-full' src="https://i.ibb.co/FY9GZfC/Illustrationvs2.png" alt="" />*/}

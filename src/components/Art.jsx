@@ -4,7 +4,7 @@ const Art = () => {
   return (
     <>
         <div className='bg-neutral-900'>
-            <div className='grid grid-cols-4 gap-4 bg-neutral-900 max-w-[1240px] m-auto'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 xs:p-4 gap-4 bg-neutral-900 max-w-[1240px] m-auto'>
                 <img className='w-full h-80 object-contain hover:scale-150 transition-all duration-300 ease-in-out' src="https://pbs.twimg.com/media/F-k0xp_awAAQLVl?format=jpg&name=4096x4096" alt="" />
                 <img className='w-full h-80 object-contain hover:scale-150 transition-all duration-300 ease-in-out' src="https://pbs.twimg.com/media/F8tPzoLbwAA6pTg?format=jpg&name=4096x4096" alt="" />
                 <img className='w-full h-80 object-contain hover:scale-150 transition-all duration-300 ease-in-out' src="https://pbs.twimg.com/media/F8eNjjma0AA3Dmj?format=jpg&name=4096x4096" alt="" />

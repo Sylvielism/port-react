@@ -17,15 +17,15 @@ const Capabilities = () => {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         >
-            <SwiperSlide><div className='text-white bg-neutral-700 rounded-md p-4 border border-gray-500'>Html</div></SwiperSlide>
-            <SwiperSlide><div className='text-white bg-neutral-700 rounded-md p-4 border border-gray-500'>CSS</div></SwiperSlide>
-            <SwiperSlide><div className='text-white bg-neutral-700 rounded-md p-4 border border-gray-500'>JavaScript</div></SwiperSlide>
-            <SwiperSlide><div className='text-white bg-neutral-700 rounded-md p-4 border border-gray-500'>React.js</div></SwiperSlide>
-            <SwiperSlide><div className='text-white bg-neutral-700 rounded-md p-4 border border-gray-500'>Next.js</div></SwiperSlide>
-            <SwiperSlide><div className='text-white bg-neutral-700 rounded-md p-4 border border-gray-500'>Node.js</div></SwiperSlide>
-            <SwiperSlide><div className='text-white bg-neutral-700 rounded-md p-4 border border-gray-500'>Mongodb</div></SwiperSlide>
-            <SwiperSlide><div className='text-white bg-neutral-700 rounded-md p-4 border border-gray-500'>Python</div></SwiperSlide>
-            <SwiperSlide><div className='text-white bg-neutral-700 rounded-md p-4 border border-gray-500'>TailwindCSS</div></SwiperSlide>
+            <SwiperSlide><div className='text-white text-center bg-neutral-700 rounded-md p-4 border border-gray-500'>Html</div></SwiperSlide>
+            <SwiperSlide><div className='text-white text-center bg-neutral-700 rounded-md p-4 border border-gray-500'>CSS</div></SwiperSlide>
+            <SwiperSlide><div className='text-white text-center bg-neutral-700 rounded-md p-4 border border-gray-500'>JavaScript</div></SwiperSlide>
+            <SwiperSlide><div className='text-white text-center bg-neutral-700 rounded-md p-4 border border-gray-500'>React.js</div></SwiperSlide>
+            <SwiperSlide><div className='text-white text-center bg-neutral-700 rounded-md p-4 border border-gray-500'>Next.js</div></SwiperSlide>
+            <SwiperSlide><div className='text-white text-center bg-neutral-700 rounded-md p-4 border border-gray-500'>Node.js</div></SwiperSlide>
+            <SwiperSlide><div className='text-white text-center bg-neutral-700 rounded-md p-4 border border-gray-500'>Mongodb</div></SwiperSlide>
+            <SwiperSlide><div className='text-white text-center bg-neutral-700 rounded-md p-4 border border-gray-500'>Python</div></SwiperSlide>
+            <SwiperSlide><div className='text-white text-center bg-neutral-700 rounded-md p-4 border border-gray-500'>TailwindCSS</div></SwiperSlide>
         </Swiper>
 
     </div>
